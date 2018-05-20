@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*body*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	margin:0px;
+}
+
+/*clear*/
+.clear{clear:both;}
+
+/*img*/
+img{ border:0;}
+
+/*link*/
+a:link{color:#333; text-decoration: none;}
+a:visited{color:#333; text-decoration:none;}
+a:hover{color: #006699; text-decoration:none;}
+a:active{color:#006699; text-decoration:none;}
+
+/*header*/
+.header{ background:url(../images/header_bg.gif) repeat-x; height:112px;}
+.header .logo{ float:left;}
+.header .right{ float:right; background:url(../images/h_right.gif) no-repeat; width:421px; height:112px;}
+
+/*menu*/
+.menu{ background:url(../images/menu_bg.gif) repeat-x; height:22px; font-size:14px; text-align:center; padding-top:8px;}
+.menu span{border-right:1px solid #0e4f8b; padding:0 20px 0 15px; text-align:center; margin:0 5px;} 
+.menu a:link{color:#006699; text-decoration: none;}
+.menu a:visited{color:#006699; text-decoration:none;}
+.menu a:hover{color: #009933; text-decoration:none;}
+.menu a:active{color:#009933; text-decoration:none;}
+
+/*main*/
+.main{padding:10px 20px;}
+.main .title{ font-size:14px; color:#0066cc; font-weight:bold; margin-bottom:10px; }
+
+/*content_center*/
+.content_center{ font-size:14px; color:#333; width:80%; margin:0 auto; text-align:center; }
+.content_center .text{ margin:10px 15px;}
+
+/*page*/
+.page{ width:90%; text-align:right; margin:10px  auto;}
+
+/*ipout*/
+.input_a{ width:500px; height:15px;}
+.input_b{ width:250px; height:15px;}
+.textarea_a{ width:500px; height:200px;}
+
+/*show*/
+.show{ color:#666666; margin-bottom:10px; text-align:right; padding-right:10px;}
+
+/*table_a*/
+.table_a{ background-color:#8aa2c3; margin-bottom:10px;}
+.table_a td{background-color:#fff; height:28px; text-align:center;}
+.table_a th{ background-color:#dbeefd; height:30px;}
+
+/*login*/
+.login{ font-size:14px; background:#f7f7f7 url(../images/login_bg.gif) no-repeat right bottom; border:1px solid #eaeaea; padding:20px 10px; width:50%; margin: 10px auto;}
+
+/*footer*/
+.footer{ background:url(../images/footer_bg.gif) repeat-x; color:#fff; line-height:180%; height:48px; text-align:center; padding-top:10px;}
+
+/*download*/
+.download{  width:80%; margin:10px auto;}
+.download .title{ color:#174961;  background:url(../images/d_t_bg.gif) repeat-x; height:22px; padding:10px 0 0 20px; }
+.download .content{}
+.download .content table td{ height:28px; padding-left:10px;}
+.download .content table p{ line-height:200%;}
